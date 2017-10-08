@@ -73,11 +73,11 @@ body {
 .box-absolute {
     height: 30px;
     width: 50px;
-    position: absolute;
+    position: relative;
     background-color: #939393;
     border: 1px solid black;
-    bottom: 0px;
-    right: 0px;
+    top: 0px;
+    left: 0px;
 
 }
 
