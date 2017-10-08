@@ -12,12 +12,6 @@ body {
     background-color: #4B99AD;
 }
 
-.box-header {
-    background-color: #7ed321;
-    /*height: 100px;*/
-    margin: 0px;
-}
-
 .box-1 {
     background-color: #555555;
     height: 100px;
@@ -70,7 +64,10 @@ body {
     position: relative;
     background-color: #C7573A;
     border: 1px solid black;
-    top: 10px;
+    /*top: 10px;*/
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
 }
 
 .box-absolute {
@@ -79,7 +76,7 @@ body {
     position: absolute;
     background-color: #939393;
     border: 1px solid black;
-    top: 0px;
+    bottom: 0px;
     right: 0px;
 
 }
