@@ -20,16 +20,19 @@ body {
     display: block;
 }
 
-
-.box-2 {
+.box-2-1 {
     background-color: #C7573A;
-    width: 49.83%;
+    width: 50%;
     height: 100px;
-    border: 2px solid #ccccff;
     display: inline-block;
-    padding: 20px;
 }
 
+.box-2-2 {
+    background-color: #BDD9D5;
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+}
 
 .box-3 {
     background-color: #555555;
