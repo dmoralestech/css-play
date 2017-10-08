@@ -21,9 +21,21 @@ body {
 .box-1 {
     background-color: #555555;
     height: 100px;
-    margin: 0px;
     border: 1px solid #000000;
-    overflow: scroll;
+    text-align: center;
+    line-height: 100px;
+    padding: 0px;
+    /*margin: auto;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
+    /*right: 0px;*/
+    /*bottom: 0px;*/
+
+}
+
+.box-1 > div {
+    /*background-color: #88D5E9;*/
+
 }
 
 .box-2 {
