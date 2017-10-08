@@ -14,7 +14,7 @@ body {
 
 .box-header {
     background-color: #7ed321;
-    height: 100px;
+    /*height: 100px;*/
     margin: 0px;
 }
 
@@ -22,11 +22,13 @@ body {
     background-color: #555555;
     height: 100px;
     margin: 0px;
+    border: 1px solid #000000;
+    overflow: scroll;
 }
 
 .box-2 {
     background-color: #C7573A;
-    height: 33.333%;
+    /*height: 33.333%;*/
     margin: 0px;
     padding: 0px;
     border: 1px solid #000000;
@@ -35,13 +37,13 @@ body {
 
 .box-3 {
     background-color: #ccccff;
-    height: 33.333%;
+    /*height: 33.333%;*/
     border: 1px solid #7ed321;
 }
 
 .box-4 {
     background-color: #ffff00;
-    height: 33.333%;
+    /*height: 33.333%;*/
     border: 1px solid #000000;
 }
 
