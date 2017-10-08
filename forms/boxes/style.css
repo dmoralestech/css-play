@@ -25,17 +25,11 @@ body {
     text-align: center;
     line-height: 100px;
     padding: 0px;
-    /*margin: auto;*/
-    /*top: 0px;*/
-    /*left: 0px;*/
-    /*right: 0px;*/
-    /*bottom: 0px;*/
 
 }
 
 .box-1 > div {
     /*background-color: #88D5E9;*/
-
 }
 
 .box-2 {
@@ -71,6 +65,24 @@ body {
     height: 40px;
 }
 
+.box-relative {
+    height: 100px;
+    position: relative;
+    background-color: #C7573A;
+    border: 1px solid black;
+    top: 10px;
+}
+
+.box-absolute {
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    background-color: #939393;
+    border: 1px solid black;
+    top: 0px;
+    right: 0px;
+
+}
 
 @media only screen and (min-width: 768px) {
     .box-1, .box-2, .box-3, .box-4, .box-left, .box-header {
