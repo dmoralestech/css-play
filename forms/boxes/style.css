@@ -10,39 +10,80 @@ html {
 
 body {
     background-color: #4B99AD;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
 }
 
 .box-1 {
     background-color: #555555;
-    width: 100%;
-    height: 200px;
-
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    margin: 1px;
+    height: 300px;
+    margin: 0px;
 }
 
 .box-2 {
     background-color: #C7573A;
-    width: 50%;
-    height: 50%;
-    display: inline-block;
+    height: 33.333%;
     margin: 0px;
     padding: 0px;
     border: 1px solid #000000;
-    float: left;
+
 }
 
-
 .box-3 {
-    background-color: #555555;
-    width: 33.333%;
-    height: 50%;
+    background-color: #ccccff;
+    height: 33.333%;
     border: 1px solid #7ed321;
-    display: inline-block;
-    float: left;
+}
+
+.box-4 {
+    background-color: #ffff00;
+    height: 33.333%;
+    border: 1px solid #000000;
+}
+
+@media only screen and (min-width: 768px) {
+    .box-1, .box-2, .box-3, .box-4 {
+        display: inline-block;
+        float: left;
+    }
+
+    .box-1 {
+        width: 100%;
+    }
+
+    .box-2 {
+        width: 50%;
+    }
+
+    .box-3 {
+        width: 33.333%;
+    }
+
+    .box-4 {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .box-1, .box-2, .box-3, .box-4 {
+        display: inline-block;
+        float: left;
+    }
+
+    .box-1 {
+        width: 100%;
+    }
+
+    .box-2 {
+        width: 45%;
+        margin-right: 50px;
+    }
+
+    .box-3 {
+        width: 32%;
+        margin-right: 12px;
+    }
+
+    .box-4 {
+        width: 23%;
+        margin-right: 12px;
+    }
 }
