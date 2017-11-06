@@ -9,7 +9,7 @@
 
 .header {
     background-color: #7ed321;
-    width: 200px;
+    /*width: 200px;*/
     text-align: center;
 }
 
@@ -23,8 +23,9 @@
 
 .message2 {
     background-color: yellowgreen;
-    width: 120px;
+    /*width: 120px;*/
     text-align: left;
+    flex: 1;
 }
 
 .container2 {
