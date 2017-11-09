@@ -38,9 +38,6 @@
     align-items: stretch;
 }
 
-.fixed-box {
-    width: 20px;
-}
 
 .box {
     /*width: 200px;*/
@@ -49,5 +46,9 @@
     height: 50px;
     background-color: palevioletred;
     border: 20px;
+}
+
+.fixed-box {
+    flex: 0 0 20px;
 }
 
