@@ -49,6 +49,9 @@
 }
 
 .fixed-box {
-    flex: 0 0 20px;
+    flex: 0 0 80px;
 }
 
+.fixed-box2 {
+    flex: 0 0 150px;
+}
