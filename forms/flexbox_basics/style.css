@@ -1,6 +1,6 @@
 body {
-    width: 99vw;
-    height: 99vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,25 +8,30 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     border: solid;
+    border-radius:20px;
     padding: 0px;
     margin: 0px;
 
 }
 
 .container {
-    width: 600px;
+    width: 1300px;
     height: 600px;
     background-color: #4B99AD;
     border: solid;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
+    flex: 1 1;
+    margin: 20px;
 }
 
 
 .inner_box {
-    width: 100px;
+    width: 200px;
     height: 100px;
     background-color: palevioletred;
     border: solid;
+    margin: 10px;
+    flex: 1 0;
 }
