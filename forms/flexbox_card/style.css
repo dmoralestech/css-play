@@ -37,11 +37,25 @@ body {
     flex-wrap: nowrap;
 }
 
+.input-group {
+    display: flex;
+
+}
+
+.icn {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background-color: lightgoldenrodyellow;
+    flex: 0 0 30px;
+}
+
 .item {
     height: 30px;
     margin: 10px;
     text-align: center;
     border: 1px solid blanchedalmond;
     border-radius: 5px;
+    flex: 1 1 auto;
 
 }
