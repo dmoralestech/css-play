@@ -41,7 +41,6 @@ body {
 
 .input-group {
     display: flex;
-    flex: 1;
     flex-direction: row;
     flex-wrap: nowrap;
 }
@@ -61,49 +60,7 @@ body {
     text-align: center;
     border: 1px solid blanchedalmond;
     border-radius: 5px;
-    flex: 1 0;
+    flex: 1 1 auto;
+    overflow: auto;
 
-}
-
-
-.container2 {
-    width: 800px;
-    height: 600px;
-    background-color: #4B99AD;
-    border: solid;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 20px;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    min-width: 400px;
-}
-
-.inner_box_fixed {
-    height: 200px;
-    background-color: pink;
-    border: solid;
-    margin: 10px;
-    flex: 0 0 200px;
-    /*align-self: flex-end;*/
-}
-
-.inner_box_fixed2 {
-    height: 100px;
-    background-color: darkslategray;
-    border: solid;
-    margin: 10px;
-    flex: 0 0 100px;
-}
-
-.inner_box {
-    width: 200px;
-    height: 100px;
-    background-color: palevioletred;
-    border: solid;
-    margin: 10px;
-    flex: 1 0;
-    min-width: 200px;
-    /*align-self: flex-start;*/
 }
