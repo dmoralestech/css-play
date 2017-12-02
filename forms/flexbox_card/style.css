@@ -17,17 +17,18 @@ body {
 }
 
 .card {
-    border: 2px solid black;
+    border: 5px solid black;
     height: 300px;
     width: 200px;
     background-color: #555555;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .header {
     height: 80px;
     background-color: #4B99AD;
     text-align: center;
+    border-radius: 15px;
 }
 
 .contents {
