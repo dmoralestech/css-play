@@ -1,3 +1,44 @@
 body {
     background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    background-color: #ffffcc;
+}
+
+.card {
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    background-color: #555555;
+}
+
+.header {
+    height: 80px;
+    background-color: #4B99AD;
+    text-align: center;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.item {
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid blanchedalmond;
+    border-radius: 5px;
+
 }
