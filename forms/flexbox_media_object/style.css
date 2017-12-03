@@ -7,6 +7,7 @@
 
 body {
   padding: 50px;
+  display: flex;
 }
 
 hr {
@@ -20,6 +21,7 @@ hr {
   font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
   margin-bottom: 100px;
   width: 800px;
+  flex: 1;
 }
 
 .example h2 {
@@ -37,6 +39,7 @@ hr {
 
 .example-media .media, .example-media .search-group {
   display: flex;
+  flex: 0 0 100px;
   max-width: 600px;
 }
 
