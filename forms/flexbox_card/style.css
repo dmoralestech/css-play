@@ -44,7 +44,7 @@ body {
 }
 
 .input-group {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin-bottom: 3px;
@@ -65,7 +65,5 @@ body {
     text-align: center;
     border: 1px solid blanchedalmond;
     border-radius: 5px;
-    flex: 1 1 auto;
-    overflow: auto;
-
+    flex: 1 0 auto;
 }
