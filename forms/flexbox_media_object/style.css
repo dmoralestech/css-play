@@ -48,7 +48,6 @@ hr {
 }
 
 .search-group {
-  background-color: #dddddd;
   height: 30px;
   flex-wrap: nowrap;
   display: inline-flex;
@@ -56,8 +55,6 @@ hr {
 }
 
 .textbox {
-  /*background-color: blue;*/
-  /*width: 200px;*/
   margin-right: 10px;
   flex: 1;
 }
@@ -69,21 +66,4 @@ hr {
   font-size: 13px;
   border: 0;
   height: 30px;
-  /*background: #000;*/
-  /*color: #fff;*/
 }
-
-/*.example-media .search-group input {*/
-  /*padding: 10px;*/
-/*}*/
-
-/*.example-media .search-group input[type="text"] {*/
-  /*!*flex: 1;*!*/
-/*}*/
-
-/*.example-media .search-group input[type="submit"] {*/
-  /*background_color: red;*/
-  /*padding: 10px;*/
-  /*width: 80px;*/
-  /*flex:  0 0 30px;*/
-/*}*/
