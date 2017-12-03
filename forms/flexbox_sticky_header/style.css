@@ -8,16 +8,22 @@ body {
     margin: 0px;  /*removes default style*/
     display: flex;  /*enables flex content for its children*/
     box-sizing: border-box;
+    background-color: darkseagreen;
 }
 
 .column {
     height: 100%;  /*allows both columns to span the full height of the browser window*/
     display: flex;
     flex-direction: column;  /*places the left and right headers above the bottom content*/
+    background-color: indianred;
+    border: 5px solid black;
+    width: 300px;
 }
 
 #left {
     flex-shrink: 0;  /*makes sure that content is not cut off in a smaller browser window*/
+    background-color: blue;
+    width: 200px;
 }
 
 .top-left {

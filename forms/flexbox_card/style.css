@@ -3,18 +3,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    flex-direction: column;
+    height: 800px;
+    width: 1024px;
+    min-width: 400px;
+    min-height: 300px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 800px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
+    min-width: 100px;
+    min-height: 100px;
     background-color: #ffffcc;
-
+    border: 3px solid goldenrod;
 }
 
 .card {
@@ -40,9 +44,10 @@ body {
 }
 
 .input-group {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-bottom: 3px;
 }
 
 .icn {
