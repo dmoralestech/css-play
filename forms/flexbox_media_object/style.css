@@ -7,7 +7,8 @@
 
 body {
   padding: 50px;
-  display: flex;
+  display: block;
+  box-sizing: border-box;
 }
 
 hr {
@@ -39,20 +40,21 @@ hr {
 
 .example-media .media, .example-media .search-group {
   display: flex;
-  flex: 0 0 100px;
-  max-width: 600px;
+  /*flex: 0 0 100px;*/
+  /*min-width: 900px;*/
+  margin: 10px 0;
 }
 
 .example-media .media img {
   margin-right: 10px;
 }
 
-.search-group {
-  height: 30px;
-  flex-wrap: nowrap;
-  display: inline-flex;
-  flex-direction: row;
-}
+/*.search-group {*/
+  /*height: 30px;*/
+  /*!*flex-wrap: nowrap;*!*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+/*}*/
 
 .textbox {
   margin-right: 10px;
@@ -61,9 +63,62 @@ hr {
 
 .submit-button {
   /*background-color: red;*/
-  width: 80px;
-  flex:  0 0 80px;
+  /*width: 80px;*/
+  flex:  0 0 200px;
   font-size: 13px;
-  border: 0;
+  border: 1px solid red;
   height: 30px;
+  margin: 0 5px;
+}
+
+
+.label-test {
+  display: inline-block;
+  border: 1px solid;
+  width: 80px;
+}
+
+
+.container {
+  display: flex;
+  background-color: blue;
+  padding: 15px;
+  margin-bottom: 12px;
+  width: 100%;
+  min-width: 400px;
+  flex-flow: wrap;
+}
+.box {
+  margin: 0 5px;
+  padding: 20px;
+  margin: 6px;
+}
+
+.boxcontainer {
+  flex: 0 0 200px;
+  /*border: 2px solid black;*/
+}
+.box1 {
+  background-color: yellow;
+  flex: 0 0 100px;
+}
+
+.box2 {
+  background-color: greenyellow;
+  flex: 0 0 125px;
+}
+
+.box11 {
+  background-color: red;
+  flex: 1;
+}
+
+.box111 {
+  background-color: green;
+  flex: 1;
+}
+
+.box1111 {
+  background-color: orange;
+  flex: 1;
 }
